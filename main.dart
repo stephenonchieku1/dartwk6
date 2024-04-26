@@ -13,7 +13,23 @@ void main() {
   for (int i = 0; i <= 10; i++) {
     print("hello $i");
   }
+//use switch case to check for different string values and output a response
+  String car = "bmw";
 
+  switch (car) {
+    case "nissan":
+      print("nissan");
+      break;
+    case "toyota":
+      print("toyota innit");
+      break;
+    case "mercedes":
+      print("mercedes innit");
+      break;
+    default:
+      print("this is another model car");
+  }
+  ;
 
 }
   
