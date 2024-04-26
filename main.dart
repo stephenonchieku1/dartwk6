@@ -54,6 +54,16 @@ void main() {
   int maxnum = numbers
       .reduce((currentMax, next) => currentMax > next ? currentMax : next);
   print("the largest number in the list is $maxnum");
+  
+    //Write a program that uses a try-catch block to catch an exception and output an error message.
+   try {
+    // Code that might throw an exception
+    int result = 10 ~/ 0; // This operation will cause a division by zero error
+    print("Result: $result"); // This line will not be executed
+  } catch (e) {
+    // Catch block to handle the exception
+    print("An error occurred: $e");
+  }
 
 }
   
