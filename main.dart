@@ -44,6 +44,16 @@ void main() {
     numb++;
     print(numb);
   }
+  //input numbers
+  stdout.write("Enter the numbers separeted by space: ");
+  String input = stdin.readLineSync()!;
+
+  List<String> numberStrings = input.split('');
+  List<int> numbers = numberStrings.map(int.parse).toList();
+
+  int maxnum = numbers
+      .reduce((currentMax, next) => currentMax > next ? currentMax : next);
+  print("the largest number in the list is $maxnum");
 
 }
   
