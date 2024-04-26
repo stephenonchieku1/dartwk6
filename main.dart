@@ -38,5 +38,12 @@ void main() {
     print("$number is odd");
   }
 
+//while loop to find numbers between 20 and 10
+  int numb = 10;
+  while (numb < 20) {
+    numb++;
+    print(numb);
+  }
+
 }
   
