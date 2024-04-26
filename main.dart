@@ -30,6 +30,13 @@ void main() {
       print("this is another model car");
   }
   ;
+  //display even and odd numbers
+  int number = 50;
+  if (number % 2 == 0) {
+    print("$number is even");
+  } else {
+    print("$number is odd");
+  }
 
 }
   
